@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import logo from '../assets/newLog.svg';
+import logo from '../assets/ornekLogo.svg';
 
 export default function UploadBox() {
   const [fileName, setFileName] = useState(null);
@@ -87,7 +87,7 @@ export default function UploadBox() {
     <div className="w-full max-w-xl pt-4 px-6">
       {/* Logo */}
       <div className="flex justify-center mb-4">
-        <img src={logo} alt="Smart Summary Logo" className="w-52 h-auto" />
+        <img src={logo} alt="Smart Summary Logo" className="w-80 h-auto" />
       </div>
 
       {/* Sürükle/Bırak Yükleme Alanı */}
